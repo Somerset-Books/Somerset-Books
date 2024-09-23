@@ -19,5 +19,6 @@ p {
     width: 40vw;
     margin-left: 5vw;
     margin-right: 5vw;
+    margin-bottom: 5vw;
     float: left;
 }
