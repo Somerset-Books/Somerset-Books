@@ -1,17 +1,24 @@
 @font-face { font-family: Berkeley; src: url('Berkeley Oldstyle Book.otf'); }
 
+.header {
+    margin-left: 5vw;
+    margin-right: 5vw;
+    width: 90vw;
+    border-radius: 20px;
+}
+
 p {
     text-align: justify;
-    padding-left: 5vw;
-    padding-right: 5vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
     font-family: Berkeley, serif;
     font-size: xx-large;
 }
 
 .cover {
     width: 40vw;
-    padding-left: 5vw;
-    padding-right: 5vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
     float: left;
 }
 /* 
