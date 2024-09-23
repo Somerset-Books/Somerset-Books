@@ -1,4 +1,4 @@
-@font-face { font-family: Berkeley; src: url('Berkeley Oldstyle Book.otf'); }
+@font-face { font-family: SF Pro; src: url('SF-Pro-Text-Regular.otf'); }
 
 .header {
     margin-left: 5vw;
@@ -11,7 +11,7 @@ p {
     text-align: justify;
     margin-left: 5vw;
     margin-right: 5vw;
-    font-family: Berkeley, serif;
+    font-family: SF Pro, sans-serif;
     font-size: xx-large;
 }
 
@@ -21,8 +21,3 @@ p {
     margin-right: 5vw;
     float: left;
 }
-/* 
-.side-para {
-    padding-left: 5vw;
-    padding-right: 5vw;
-} */
