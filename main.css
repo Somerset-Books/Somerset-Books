@@ -1,5 +1,9 @@
 @font-face { font-family: SF Pro; src: url('SF-Pro-Text-Regular.otf'); }
 
+body {
+    background-color: white;
+}
+
 .header {
     margin-left: 5vw;
     margin-right: 5vw;
