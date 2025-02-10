@@ -5,24 +5,36 @@ body {
 }
 
 .header {
-    margin-left: 5vw;
-    margin-right: 5vw;
-    width: 90vw;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
     border-radius: 20px;
 }
 
 p {
     text-align: justify;
-    margin-left: 5vw;
-    margin-right: 5vw;
+    margin-left: 5%;
+    margin-right: 5%;
     font-family: SF Pro, sans-serif;
     font-size: xx-large;
 }
 
 .cover {
-    width: 40vw;
-    margin-left: 5vw;
-    margin-right: 5vw;
-    margin-bottom: 5vw;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
     float: left;
+}
+
+/* For iPad */
+@media screen and (min-width: 600px) {
+    body {
+        max-width: 600px;
+        margin: auto;
+    }
+
+    p {
+        font-size: medium;
+    }
 }
